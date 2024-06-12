@@ -1,0 +1,6 @@
+@WebMethodAdaptor_HostAddress = http://localhost:5286
+
+GET {{WebMethodAdaptor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
