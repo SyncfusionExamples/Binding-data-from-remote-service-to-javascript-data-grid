@@ -17,23 +17,22 @@ var modelBuilder = new ODataConventionModelBuilder();
 // Register the "Orders" entity set with the OData model builder
 modelBuilder.EntitySet<OrdersDetails>("Orders");
 
-var recordCount = OrdersDetails.GetAllRecords().Count;
+// Add controllers with OData support to the service collection
 
+var recordCount = OrdersDetails.GetAllRecords().Count;
 builder.Services.AddControllers().AddOData(
     options => options
-    .Count()
-    .OrderBy()
-    .Filter()
-    .SetMaxTop(recordCount)
-    .AddRouteComponents(
-        "odata",
-        modelBuilder.GetEdmModel()));
+        .Count()
+        .Filter() //searching and filtering
+        .Select()
+        .Expand()
+        .OrderBy()
+        .SetMaxTop(recordCount)
+        .AddRouteComponents("odata", modelBuilder.GetEdmModel()));
 
 var app = builder.Build();
-
 app.UseDefaultFiles();
 app.UseStaticFiles();
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

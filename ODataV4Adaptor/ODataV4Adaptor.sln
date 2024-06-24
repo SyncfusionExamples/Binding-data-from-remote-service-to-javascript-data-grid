@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataV4Adaptor", "ODataV4Adaptor\ODataV4Adaptor.csproj", "{CAB1491F-D43B-4513-9A9D-F5A56AA8F093}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataV4Adaptor", "ODataV4Adaptor\ODataV4Adaptor.csproj", "{74ADB429-2FE7-4393-977B-D519A96C236C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CAB1491F-D43B-4513-9A9D-F5A56AA8F093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAB1491F-D43B-4513-9A9D-F5A56AA8F093}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAB1491F-D43B-4513-9A9D-F5A56AA8F093}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAB1491F-D43B-4513-9A9D-F5A56AA8F093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ADB429-2FE7-4393-977B-D519A96C236C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ADB429-2FE7-4393-977B-D519A96C236C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ADB429-2FE7-4393-977B-D519A96C236C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ADB429-2FE7-4393-977B-D519A96C236C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C4A3478D-2390-4B78-982F-E0AC583C0E9D}
+		SolutionGuid = {3927FC0F-643B-423D-B5D3-E6D66A7D9934}
 	EndGlobalSection
 EndGlobal

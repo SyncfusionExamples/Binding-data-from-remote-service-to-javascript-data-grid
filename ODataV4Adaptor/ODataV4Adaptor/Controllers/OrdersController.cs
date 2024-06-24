@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using ODataV4Adaptor.Models;
+
 namespace OdataV4Adaptor.Controllers
 {
 
@@ -54,7 +55,7 @@ namespace OdataV4Adaptor.Controllers
             {
                 // If the order exists, update its properties
                 existingOrder.CustomerID = updateRecord.CustomerID ?? existingOrder.CustomerID;
-                existingOrder.ShipCity = updateRecord.ShipCity ?? existingOrder.ShipCity;
+                existingOrder.EmployeeID = updateRecord.EmployeeID ?? existingOrder.EmployeeID;
                 existingOrder.ShipCountry = updateRecord.ShipCountry ?? existingOrder.ShipCountry;
             }
             return Json(updateRecord);

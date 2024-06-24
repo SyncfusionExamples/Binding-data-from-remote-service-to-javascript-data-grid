@@ -10,11 +10,11 @@ namespace ODataV4Adaptor.Models
 
         }
         public OrdersDetails(
-        int OrderID, string CustomerId, string ShipCity, string ShipCountry)
+        int OrderID, string CustomerId, int EmployeeId, string ShipCountry)
         {
             this.OrderID = OrderID;
             this.CustomerID = CustomerId;
-            this.ShipCity = ShipCity;
+            this.EmployeeID = EmployeeId;
             this.ShipCountry = ShipCountry;
         }
 
@@ -25,11 +25,11 @@ namespace ODataV4Adaptor.Models
                 int code = 10000;
                 for (int i = 1; i < 10; i++)
                 {
-                    order.Add(new OrdersDetails(code + 1, "ALFKI","Berlin", "Denmark"));
-                    order.Add(new OrdersDetails(code + 2, "ANATR", "Madrid", "Brazil"));
-                    order.Add(new OrdersDetails(code + 3, "ANTON", "Cholchester", "Germany"));
-                    order.Add(new OrdersDetails(code + 4, "BLONP", "Marseille", "Austria"));
-                    order.Add(new OrdersDetails(code + 5, "BOLID", "tsawassen", "Switzerland"));
+                    order.Add(new OrdersDetails(code + 1, "ALFKI", i + 0, "Denmark"));
+                    order.Add(new OrdersDetails(code + 2, "ANATR", i + 2, "Brazil"));
+                    order.Add(new OrdersDetails(code + 3, "ANTON", i + 1, "Germany"));
+                    order.Add(new OrdersDetails(code + 4, "BLONP", i + 3, "Austria"));
+                    order.Add(new OrdersDetails(code + 5, "BOLID", i + 4, "Switzerland"));
                     code += 5;
                 }
             }
@@ -37,8 +37,11 @@ namespace ODataV4Adaptor.Models
         }
         [Key]
         public int? OrderID { get; set; }
+        [Required]
         public string? CustomerID { get; set; }
-        public string? ShipCity { get; set; }
+        [Required]
+        public int? EmployeeID { get; set; }
+        [Required]
         public string? ShipCountry { get; set; }
     }
 }
