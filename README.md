@@ -55,6 +55,6 @@ https://github.com/SyncfusionExamples/Binding-data-from-remote-service-to-javasc
 
 You can also refer the below resources to know more details about Syncfusion Javascript Grid components.
 
-* [Demo](https://ej2.syncfusion.com/javascript/demos/#/bootstrap/grid/over-view?utm_source=github&utm_medium=listing&utm_campaign=javascript-datagrid-github-samples)
+* [Demo](https://ej2.syncfusion.com/javascript/demos/?utm_source=github&utm_medium=listing&utm_campaign=javascript-datagrid-github-samples#/bootstrap/grid/grid-overview.html)
 * [Documentation](https://ej2.syncfusion.com/javascript/documentation/grid/getting-started?utm_source=github&utm_medium=listing&utm_campaign=javascript-datagrid-github-samples)
-* [GraphQL with Syncfusion DataManager](https://ej2.syncfusion.com/javascript/documentation/grid/connecting-to-adaptors?utm_source=github&utm_medium=listing&utm_campaign=javascript-datagrid-github-samples)
+* [GraphQL with Syncfusion DataManager](https://ej2.syncfusion.com/javascript/documentation/grid/connecting-to-adaptors/url-adaptor?utm_source=github&utm_medium=listing&utm_campaign=javascript-datagrid-github-samples)
