@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository demonstrates how to bind data from various remote services to a Syncfusion Essential JS 2 (EJ2) JavaScript Data Grid. It provides examples for integrating data using different adaptors and showcases techniques for handling filtering, sorting, paging, and CRUD operations within JavaScript applications. By exploring this repository, you will learn how to efficiently manage and display data in your applications.
+This repository demonstrates how to bind data from various remote services to a Syncfusion Essential JS 2 (EJ2) [JavaScript Data Grid](https://www.syncfusion.com/javascript-ui-controls/js-data-grid?utm_source=github&utm_medium=listing&utm_campaign=javascript-grid-github). It provides examples for integrating data using different adaptors and showcases techniques for handling filtering, sorting, paging, and CRUD operations within JavaScript applications. By exploring this repository, you will learn how to efficiently manage and display data in your applications.
 
 ## Features
 
